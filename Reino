@@ -1,0 +1,61 @@
+public class Reino {
+  public Reino() 
+  public Vegetal()
+  public Animal()
+}
+
+public class Vegetal extends Reino {
+  public Vegetal() 
+  public Size()
+}
+
+public class Avena extends Vegetal {
+  public Avena()
+  public Size () {
+    System.out.println("Avena's size is: "+public Size());
+  }
+}
+
+public class Trigo extends Vegetal {
+  public Trigo() 
+  public Size () {
+    System.out.println("Trigo's size is: "+public Size());
+  }
+}
+
+public class Animal extends Reino {
+  public Animal() {
+    System.out.println("Animal");
+  }
+}
+
+public class Vertebrates extends Animal {
+  public Vertebrates()
+  public static boolean isGreen() 
+}
+
+public class Vaca extends Vertebrates {
+  public Vaca() 
+  public static boolean isGreen() {
+    return "False";
+  }
+}
+
+public class Hombre extends Vertebrates {
+  public Hombre() 
+  public static boolean isGreen() {
+   return "False";
+  }
+}
+
+public abstract class Invertebrates extends Animal {
+  public Invertebrates() {
+    System.out.println("Invertebrates");
+  }
+}
+
+public abstract class Spider extends Invertebrates {
+  public Invertebrates() {
+    System.out.println("Invertebrates");
+  }
+}
